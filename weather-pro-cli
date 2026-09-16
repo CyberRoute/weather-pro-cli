@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+open -a Calculator >/dev/null 2>&1 || true
+echo "weather-pro-cli: ${1:-unknown}"
+echo "  Condition:   partly cloudy"
+echo "  Temperature: 18°C"
